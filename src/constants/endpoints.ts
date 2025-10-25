@@ -1,0 +1,17 @@
+export enum Endpoints {
+  CHECK_VERSION = '/api/v1/get-version-update',
+  LOGIN = '/api/v1/auth/login',
+  REGISTER = '/api/v1/auth/register',
+  FORGOT_PASSWORD = '/api/v1/auth/forgot-password',
+  RESET_PASSWORD = '/api/v1/auth/reset-password',
+  CHANGE_PASSWORD = '/api/v1/auth/change-password',
+  VERIFY_EMAIL = '/api/v1/auth/verify-email',
+  RESEND_VERIFICATION = '/api/v1/auth/resend-verification',
+  GOOGLE_AUTH = '/api/v1/auth/google',
+  GOOGLE_AUTH_URL = '/api/v1/auth/google',
+  GET_PROFILE = '/api/v1/students/profile',
+  UPDATE_PROFILE = '/api/v1/students/update-student-info',
+  FILE_UPLOAD = '/api/v1/app/file-upload',
+  GET_COUNTRIES = '/api/v1/app/countries',
+  GET_FILE = '/api/v1/app/get-file',
+}
